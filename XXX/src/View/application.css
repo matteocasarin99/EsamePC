@@ -1,0 +1,8 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.background-verd{
+	-fx-background-color:  #4fdfb0; 
+	
+	}
+ .textareaBg{
+ 	-fx-background-color:  #54c633;
+ }

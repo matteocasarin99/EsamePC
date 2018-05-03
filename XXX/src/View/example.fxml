@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TilePane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.Controller">
+   <children>
+      <Pane prefHeight="366.0" prefWidth="373.0">
+         <children>
+            <JFXTextField fx:id="nm" layoutX="142.0" layoutY="92.0" />
+            <JFXButton layoutX="155.0" layoutY="198.0" onMouseClicked="#click" prefHeight="47.0" prefWidth="109.0" styleClass="background-verd" stylesheets="@application.css" text="Accedi" />
+            <JFXPasswordField fx:id="psw" layoutX="142.0" layoutY="137.0" />
+            <Label layoutX="32.0" layoutY="104.0" text="Nome Utente" />
+            <Label layoutX="32.0" layoutY="141.0" text="Password" />
+            <Label layoutX="155.0" layoutY="39.0" prefHeight="26.0" prefWidth="109.0" text="BuyNow!!">
+               <font>
+                  <Font name="SansSerif Bold" size="22.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnReg" layoutX="155.0" layoutY="264.0" onMouseClicked="#clickReg" prefHeight="47.0" prefWidth="109.0" styleClass="background-verd" stylesheets="@application.css" text="Registrati" />
+            <Label layoutX="30.0" layoutY="279.0" text="Non hai un account?" />
+         </children>
+      </Pane>
+   </children>
+</TilePane>
